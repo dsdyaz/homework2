@@ -1,0 +1,103 @@
+  body {
+    margin: 0;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: azure;
+    font-family: Bahnschrift, cursive;
+  }
+  .buttonCont:hover{
+    background: #222122;
+  }
+
+  .navBar{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+
+    position: fixed;
+    background: #eb5757;
+  }
+
+
+
+  .navMenu{
+    display: inline-flex;
+  }
+
+  .buttonCont{
+    padding: 4px 10px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+
+
+  }
+
+  .logoCont{
+    display: flex;
+    align-content: center;
+    flex: 2;
+  }
+
+  .cartCont {
+    padding: 6px 15px;
+    position: relative;
+    background: black;
+    border-radius: 10px;
+
+  }
+
+  .cartCont:hover > .itemList{
+    display: block;
+
+
+
+  }
+  .cartImgCont{
+    display: flex;
+    align-content: center;
+  }
+
+  .cartItemCounterCont{
+    background: azure;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: -3px; left: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cartItemCounter{
+
+  }
+
+  .cartImg{
+    width: 20px;
+  }
+
+  .itemList{
+    width:400px;
+
+    max-height: 400px;
+    background: rgba(245,125,109,0.73);
+    position: absolute;
+    left: -350px;
+    top: 40px;
+    display: none;
+  }
+
+    li{
+      list-style-type: none;
+
+      margin: 50px;
+    }
+
+
